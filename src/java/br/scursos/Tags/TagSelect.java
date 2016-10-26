@@ -38,8 +38,5 @@ public class TagSelect extends SimpleTagSupport{
        for(int i=0; i<this.quantidade; i++){
            getJspContext().getOut().print(this.valor);
        }
-       
-       
-    
-    }
+   }
 }
